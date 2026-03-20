@@ -30,11 +30,28 @@
          DESAFIO 1 (HTML)
          Aluno: deve montar os cards
     =============================== -->
+    
+
     <section class="stats">
 
-        <!-- TODO: criar 3 cards -->
-        <!-- Dica: Total | Ativas | Completas -->
+        <section class="stats">
 
+            <div class="stat-card">
+                <span class="stat-numero" id="total-tarefas">0</span>
+                <span class="stat-label">Total</span>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-numero" id="tarefas-ativas">0</span>
+                <span class="stat-label">Ativas</span>
+            </div>
+
+            <div class="stat-card">
+                <span class="stat-numero" id="tarefas-completas">0</span>
+                <span class="stat-label">Completas</span>
+            </div>
+
+        </section>
     </section>
 
 
@@ -61,7 +78,39 @@
     <!-- ===============================
         LISTA (PRONTA E VAZIA)
     =============================== -->
+    
+
     <section class="tasks">
+
+        <section class="lista-tarefas">
+
+            <ul id="lista">
+
+                <li class="tarefa completa">
+                    <label class="tarefa-conteudo">
+                        <input type="checkbox" checked>
+                        <span>Criar uma todo list moderna</span>
+                    </label>
+                </li>
+
+                <li class="tarefa">
+                    <label class="tarefa-conteudo">
+                        <input type="checkbox">
+                        <span>Adicionar animações suaves</span>
+                    </label>
+                </li>
+
+                <li class="tarefa">
+                    <label class="tarefa-conteudo">
+                        <input type="checkbox">
+                        <span>Tornar o design responsivo</span>
+                    </label>
+                </li>
+
+            </ul>
+
+        </section>
+
         <!-- JS vai renderizar aqui -->
     </section>
 
