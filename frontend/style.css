@@ -13,6 +13,10 @@
    👉 Criar variáveis de cor
 =============================== */
 :root {
+    --primary: #6c5cff;
+    --secondary: #8a2be2;
+    --accent: #00c9a7;
+    --white: #ffffff;
     /* TODO: criar cores do projeto */
 }
 
