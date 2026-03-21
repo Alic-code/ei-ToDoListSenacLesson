@@ -55,6 +55,21 @@ body {
 =============================== */
 .header {
     text-align: center;
+    margin-bottom:25px;
+}
+
+.titulo{
+    font-size:32px;
+    font-weight:700;
+    background:linear-gradient(90deg,#4f7cff,#8e2de2);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.descricao{
+    margin-top:8px;
+    color: var(--white);
+    font-size:15px;
 }
 
 /* ===============================
@@ -62,8 +77,31 @@ body {
    👉 Criar layout dos CARDS
 =============================== */
 .stats {
+    display:flex;
+    justify-content: center;
     margin: 20px 0;
+    gap:15px;
 }
+
+.stat-card{
+    flex:1;
+    background:white;
+    padding:18px;
+    border-radius:14px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+.stat-numero{
+    font-size:24px;
+    font-weight:700;
+    display:block;
+}
+
+.stat-label{
+    color:#6b7280;
+}
+
 
 /* ===============================
    ADD TASK (BASE)
@@ -71,16 +109,46 @@ body {
 .add-task {
     display: flex;
     gap: 10px;
+    margin-bottom:20px;
 }
 
-.add-task input {
+.add-task{
     flex: 1;
     padding: 10px;
+    margin-bottom:20px;
 }
 
-.btn-add {
-    cursor: pointer;
+#input-tarefa{
+    flex:1;
+    padding:14px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    font-size:14px;
+    outline:none;
 }
+
+#input-tarefa:focus{
+    border-color:#6c63ff;
+}
+
+
+#btn-adicionar{
+    padding:14px 20px;
+    border:none;
+    border-radius:12px;
+    font-weight:600;
+    color:white;
+    cursor:pointer;
+
+    background:linear-gradient(90deg,#4f7cff,#8e2de2);
+
+    transition:0.2s;
+}
+
+#btn-adicionar:hover{
+    transform:translateY(-2px);
+}
+
 
 /* ===============================
    🎯 DESAFIO 5 (CSS)

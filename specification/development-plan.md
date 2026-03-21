@@ -10,23 +10,23 @@
 
 ## Fase 1 — Estrutura HTML
 
-* Criar a estrutura principal do layout
-* Implementar a seção de estatísticas
-* Adicionar os três cards (Total, Ativas, Completas)
+* Criar a estrutura principal do layout //ok
+* Implementar a seção de estatísticas // ok
+* Adicionar os três cards (Total, Ativas, Completas) //ok
 
 ---
 
 ## Fase 2 — Estilização Base
 
-* Aplicar reset global
-* Configurar variáveis de cores
-* Estilizar body e container
+* Aplicar reset global // ok
+* Configurar variáveis de cores // ok 
+* Estilizar body e container // ok 
 
 ---
 
 ## Fase 3 — Cards de Estatísticas
 
-* Estilizar os cards
+* Estilizar os cards ok 
 * Aplicar efeito visual (glassmorphism)
 * Implementar animações de hover
 
