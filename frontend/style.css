@@ -28,6 +28,9 @@ body {
     display: flex;
     justify-content: center;
     padding: 40px 20px;
+    justify-content: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #6c5cff, #8a2be2);
 
     /* TODO: adicionar background bonito */
 }
@@ -38,7 +41,12 @@ body {
 .container {
     width: 100%;
     max-width: 600px;
-    padding: 20px;
+    padding: 25px;
+    max-width: 700px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.12);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
 /* ===============================
