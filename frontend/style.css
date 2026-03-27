@@ -98,6 +98,10 @@ body {
     display:block;
 }
 
+#total-tarefas {
+    color: #8a2be2;
+}
+
 .stat-label{
     color:#6b7280;
 }
@@ -114,7 +118,6 @@ body {
 
 .add-task{
     flex: 1;
-    padding: 10px;
     margin-bottom:20px;
 }
 
@@ -229,7 +232,8 @@ body {
 =============================== */
 
 .tarefa {
-    background: white;
+    background: transparent;
+    border: solid white;
 
     padding: 16px;
 
@@ -271,7 +275,7 @@ body {
 .tarefa input[type="checkbox"] {
     width: 18px;
     height: 18px;
-
+    color: #00c9a7;
     cursor: pointer;
 }
 
