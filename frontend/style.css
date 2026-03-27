@@ -64,6 +64,13 @@ body {
     background:linear-gradient(90deg,#4f7cff,#8e2de2);
     -webkit-background-clip:text;
     color:var(--accent);
+    animation: flutuar 2s infinite ease-in-out;
+}
+
+@keyframes flutuar{
+    0%{ transform: translateY(0); }
+    50%{ transform: translateY(-6px); }
+    100%{ transform: translateY(0); }
 }
 
 .descricao{
@@ -142,7 +149,6 @@ body {
     font-weight:600;
     color:white;
     cursor:pointer;
-
     background:linear-gradient(90deg,#4f7cff,#8e2de2);
 
     transition:0.2s;
@@ -151,7 +157,6 @@ body {
 #btn-adicionar:hover{
     transform:translateY(-2px);
 }
-
 
 /* ===============================
    🎯 DESAFIO 5 (CSS)
@@ -252,6 +257,7 @@ body {
 
 .tarefa:hover {
     transform: translateX(5px);
+    color: #00c9a7;
 }
 
 /* ===============================
@@ -275,7 +281,6 @@ body {
 .tarefa input[type="checkbox"] {
     width: 18px;
     height: 18px;
-    color: #00c9a7;
     cursor: pointer;
 }
 
